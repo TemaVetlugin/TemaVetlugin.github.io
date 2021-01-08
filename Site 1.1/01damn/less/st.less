@@ -1,0 +1,523 @@
+@font-face {
+  font-family: 'Reey';
+  src: url('../fonts/Reey-Regular.eot');
+  src: url('../fonts/Reey-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Reey-Regular.woff2') format('woff2'),
+  url('../fonts/Reey-Regular.woff') format('woff'),
+  url('../fonts/Reey-Regular.ttf') format('truetype'),
+  url('../fonts/Reey-Regular.svg#Reey-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+  url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.woff') format('woff'),
+  url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+  url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenSans_bold';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+  url('../fonts/OpenSans-Bold.woff') format('woff'),
+  url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+  url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenSans-BBold';
+  src: url('../fonts/OpenSans-ExtraBold.eot');
+  src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+  url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+  url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+  url('../fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+.bold(){font-family: 'OpenSans_bold', SansSerif;}
+.reg(){font-family: 'Open Sans', SansSerif;}
+.extra(){font-family: 'OpenSans-BBold',SansSerif;}
+@dark:#1E1D2A;
+@light:#fff;
+
+.Head{
+  display: block;
+  height: 1056px;
+  background-image: url("../PSD/Header Background.png");
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  color: @light;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+  background-position-y: 100%;
+
+  a{
+    margin-right: 50px;
+  text-decoration: none;
+  color: @light;
+    height: 150px;
+  line-height: 150px;}
+&-search{
+  form {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+  }
+  input {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 180px;
+    outline: none;
+    background: @light;
+    margin-top: 50px;
+    color: #9E9C9C;
+  }
+  button {
+    margin-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: @light;
+
+    border-radius: 180px 185px 185px 180px;
+    cursor: pointer;
+  }
+  button:before {
+    content: url('../PSD/Search.svg');
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+  }}
+  &-b{padding-left: 100px;
+    h1{
+      font-family: Reey;
+      font-size: 90px;
+    padding-top: 60px;
+      padding-bottom: 125px;}
+    h5{
+      .bold();
+      font-size: 1.5rem;
+    }
+    button {
+      margin-top: 60px;
+      position: relative;
+      width: 250px;
+      height: 50px;
+      background-color: @light;
+      .bold();
+      margin-bottom: 25px;
+      color: @dark;
+      border-radius: 180px 185px 185px 180px;
+      cursor: pointer;
+    }
+    img{padding-top: 150px; }
+    p{font-family: 'Open Sans';
+      font-style: italic;
+      margin-top: 0px;
+}
+  }
+  &-1{position: absolute;
+  right: 15px;
+  bottom: -260px;
+  z-index: 2}
+  &-2{position: absolute;
+    right: 100px;
+    bottom: 20px}
+&-3{
+  position: absolute;
+  right: 600px;
+  bottom: -90px
+}
+}
+.neck{
+
+p{.reg();}
+  &-top{
+    p{margin-bottom:100px;
+  font-size: 20px;
+      text-align: center;
+    }
+    h1{
+      margin-bottom: 7rem;
+      margin-top: 7rem;
+      font-family: 'Reey';
+      text-align: center;
+      font-size: 80px;
+    }
+  }
+  &-all{
+img{
+  height: 345px;
+  width: 345px;
+  margin-left: 80px;
+}
+    p{
+      margin-left: 150px;
+      .reg();
+      font-size: 15px;
+    }
+    h3{
+      margin-left: 150px;
+      .bold();
+      font-size: 25px;
+    }
+button{
+  display:block;
+  position: relative;
+  margin-bottom: 5rem;
+  margin-top: 125px;
+  height: 75px;
+  width: 300px;
+left: 50%;
+  transform: translateX(-50%);
+  color: @light;
+  background-color: @dark;
+  .extra();
+  font-size: 20px;
+  border-radius: 100px;
+}
+  }
+}
+.chest{
+background-color: @dark;
+  color: @light;
+  h1{
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+    font-family: 'Reey';
+    text-align: center;
+    font-size: 80px;
+  }
+  p{
+    font-family: 'Montserrat', SansSerif;
+    font-size: 15px;
+    margin-block-start: 20px;
+    margin-block-end: 32px;
+  }
+  button{
+    display:block;
+    position: relative;
+
+    margin-top: 80px;
+    height: 60px;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: @light;
+    color: @dark;
+    .extra();
+    font-size: 20px;
+    border-radius: 100px;
+  }
+  &-wax{
+ padding-bottom: 70px;
+  }
+}
+.sale{
+  h1{
+    .bold();
+    font-size: 40px;
+  }
+  p{
+    .reg();
+    font-size: 20px;
+  }
+  &-a{
+    margin-left: 50px;
+    button{
+      display:block;
+      position: relative;
+      margin-top: 60px;
+      height: 75px;
+      width: 300px;
+      color: @light;
+      background-color: @dark;
+      .bold();
+      font-size: 25px;
+      border-radius: 100px;
+    }
+    h1{
+      margin-top: 175px;
+      margin-bottom: 55px;
+
+    }
+    img{
+      width: 625px;
+      height: 625px;
+      margin-left: 100px;
+      margin-top: 50px;
+    }
+  }
+  &-b{
+    margin-left: 100px;
+    button{
+      display:block;
+      position: relative;
+      margin-top: 60px;
+      height: 75px;
+      width: 300px;
+      color: @light;
+      background-color: @dark;
+      .bold();
+      font-size: 20px;
+      border-radius: 100px;
+    }
+    h1{
+      margin-top: 275px;
+      margin-bottom: 50px;
+
+    }
+    img{
+      margin-top: 125px;
+      margin-left: -100px;
+      width: 670px;
+      height: 670px;
+      margin-bottom: 0px;
+    }
+  }
+}
+.pizza{
+
+  height: 1080px;
+display: block;
+  background-image: url("../PSD/Header Background.png");
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  color: @light;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  h1{
+    font-size: 55px;
+    font-family: 'Reey';
+    padding-top: 160px;
+    padding-bottom: 80px;
+    text-align: center;
+
+  }
+  p{
+    .reg();
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  button{
+    position: relative;
+    left: 50%;
+    width: 200px;
+    height: 20px;
+    transform: translateX(-50%);
+  }
+  &-l{
+    position: relative;
+    left: 12%;
+    bottom: 60%;
+    transform: translateY(5%);
+  }
+  &-p{
+    position: relative;
+    left: 35%;
+    bottom: 80%;
+    transform: translateY(5%);
+  }
+  &-pi{
+    position: relative;
+    left: 27%;
+   bottom: 95%;
+    transform: translateY(-50%);
+  }
+}
+.next{
+  &-d{
+    h2{
+      padding-top: 200px;
+      margin-left: 20px;
+      font-family: 'Reey';
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 15px;
+      .reg();
+      margin-bottom: 240px;
+    }
+  }
+  &-f{
+    p{
+      .reg();
+      font-size: 20px;
+      text-align: center;
+    }
+    h5{
+      text-align: center;
+      margin-bottom: 190px;
+      margin-top: 65px;
+      .bold();
+    }
+  }
+
+}
+.legs{
+  background-color: @dark;
+  color: @light;
+  height: 800px;
+  h1{
+    text-align: center;
+    .bold();
+    font-size: 50px;
+    padding-top: 240px;
+  }
+  p{
+    .reg();
+    font-size: 20px;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 80px;
+  }
+  &-search{
+    form {
+      position: relative;
+      width: 750px;
+      margin: 0 auto;
+      padding-bottom: 220px;
+    }
+    input {
+      width: 100%;
+      height: 65px;
+      padding-left: 50px;
+      border: none;
+      border-radius: 180px;
+      outline: none;
+      background: @light;
+      margin-top: 50px;
+      color: #9E9C9C;
+      font-size: 20px;
+    }
+    button {
+      font-size: 30px;
+      .bold();
+      margin-top: 50px;
+      position: absolute;
+      top: 0;
+      right: 0px;
+      width: 220px;
+      height: 65px;
+      border: none;
+      background: darkslateblue;
+      color: @light;
+      border-radius: 180px 185px 185px 180px;
+      cursor: pointer;
+    }
+    button:before {
+
+      font-family: FontAwesome;
+      font-size: 16px;
+      color: #F9F0DA;
+    }}
+  img{
+    position: relative;
+    left: 200px;
+    top:-900px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 1056px;
+  }
+
+}
+ footer{
+   height: 800px;
+   .woo{
+     margin-left: 80px;
+   }
+   button {
+
+     margin-top: 20px;
+     position: relative;
+     top: 0;
+
+     width: 40px;
+     height: 40px;
+     border: none;
+     background: @dark;
+     border-radius: 180px 185px 185px 180px;
+     cursor: pointer;
+     background-position: center ;
+   }
+
+   p{
+     .reg();
+       font-size: 15px;
+
+   }
+h2{
+  .reg();
+  font-size: 20px;
+  padding-bottom: 45px;
+  padding-top: 350px;
+}
+   h1{
+     .reg();
+     font-size: 30px;
+     padding-bottom: 45px;
+     padding-top: 350px;
+   }
+   h3{
+     .reg();
+     font-size: 20px;
+     margin-bottom: 10px;
+
+   }
+  .Ins { display: inline-block;
+    button {
+      border: @dark 2px solid;
+      background-image: url("../PSD/Ins.png");
+      background-position: center;
+    }
+  }
+   button#AAA{
+     border: @dark 2px solid;
+     background-image: url("../PSD/Fac.png");
+     background-position: center ;
+   }
+   .twit{ display: inline-block;
+     button{
+     border: @dark 2px solid;
+     background-image: url("../PSD/Twit.png");
+     background-position: center ;
+   }}
+   .WA{ display: inline-block;
+     button{
+       border: @dark 2px solid;
+       background-image: url("../PSD/WA.png");
+       background-position: center ;
+     }
+   }
+   }
